@@ -18,7 +18,7 @@
 
 module.exports = {
 
-  db: process.env.MONGODB|| 'mongodb://localhost:27017/test',
+  db: process.env.MONGODB|| 'mongodb://mailsweep_admin:hellyeah2014@ds031108.mongolab.com:31108/mailsweep',
 
   sessionSecret: process.env.SESSION_SECRET || 'Your Session Secret goes here',
 
@@ -75,8 +75,8 @@ module.exports = {
   },
 
   google: {
-    clientID: process.env.GOOGLE_ID || '828110519058.apps.googleusercontent.com',
-    clientSecret: process.env.GOOGLE_SECRET || 'JdZsIaWhUFIchmC1a_IZzOHb',
+    clientID: process.env.GOOGLE_ID || '739185839733-th72p2vrpmdpsrm7b2cbefh2mvhrmt08.apps.googleusercontent.com',
+    clientSecret: process.env.GOOGLE_SECRET || 'kvCopJkUzUHpzrUfE8-EaJDQ',
     callbackURL: '/auth/google/callback',
     passReqToCallback: true
   },
